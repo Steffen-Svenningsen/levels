@@ -9,6 +9,8 @@ import Prices from './pages/Prices';
 import About from './pages/About';
 import Values from './pages/Values';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -38,6 +40,8 @@ function App() {
             <Route path="/om-os" element={<About/>}></Route>
             <Route path="/vaerdier" element={<Values/>}></Route>
           </Routes>
+          <ContactForm/>
+          <Footer/>
         </BrowserRouter>
       }
     </div>
