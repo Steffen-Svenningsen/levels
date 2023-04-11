@@ -10,7 +10,7 @@
 .App {
   width: 100%;
   min-height: 100vh;
-  padding: 0;
+  padding: 1rem 2rem;
   margin: 0;
   box-sizing: border-box;
   background-color: var(--dark-bg);
@@ -23,6 +23,9 @@
   display: grid;
   place-items: center;
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .loading-page .stair {
@@ -57,6 +60,97 @@
   width: 300px;
 }
 
+.page {
+  margin-top: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--dark-bg);
+  width: 100%;
+  height: fit-content;
+  border-bottom: 1px solid var(--text-primary);
+  display: flex;
+  padding: 0 2rem;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header .logo {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  color: var(--text-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+header nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+header nav a.active {
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right bottom, var(--cta), var(--cta-shade));
+  border-image-slice: 1;
+  width: fit-content;
+}
+
+header nav .header-seperator-line {
+  height: 70px;
+  margin: 0 1rem;
+  width: 1px;
+  background-color: var(--text-primary);
+}
+
+header .hamburger {
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  gap: 4px;
+}
+
+header .hamburger .hamburger-line {
+  width: 22px;
+  height: 2px;
+  background-color: var(--text-primary);
+}
+
+header .mobile-menu {
+  position: absolute;
+  height: calc(100vh - 70px);
+  width: 100vw;
+  top: 70px;
+  left: 0;
+  background-color: #00b14b;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+header .mobile-menu a {
+  color: var(--dark-bg);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 68px;
+}
+
 @keyframes slideIn {
   from {
     transform: translate(-200px);
@@ -82,7 +176,23 @@
 }
 
 @media (max-width: 700px) {
-.loading-page .stair {
+  .App {
+    padding: 1rem;
+  }
+
+  header {
+    padding: 1rem;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .hamburger {
+    display: flex;
+  }
+
+  .loading-page .stair {
   transform: scale(0.5);
 }
 }
