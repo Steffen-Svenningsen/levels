@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './icons/Logo'
 import { NavLink } from 'react-router-dom'
 import PhoneIcon from './icons/PhoneIcon'
-import MailIconFooter from './icons/MailIconFooter'
+import MailIcon from './icons/MailIcon'
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
           <h1>Kontakt</h1>
           <p>Ringvej Syd 104</p>
           <p>8260, Viby J</p>
-          <a className='phone' href='mailto:info@levels.com'><MailIconFooter />info@levels.com</a>
+          <a className='phone' href='mailto:info@levels.com'><MailIcon />info@levels.com</a>
           <a className='mail' href='callto:12345678'><PhoneIcon />+45 12 34 56 78</a>
         </div>
         <div>
