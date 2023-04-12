@@ -26,23 +26,23 @@ function App() {
       {
         loading ?
 
-        <Loadingpage/>
+          <Loadingpage />
 
-        :
+          :
 
-        <BrowserRouter basename={'/levels'}>
-          <Header/>
-          <Routes>
-            <Route path="/" element={<Homepage/>}></Route>
-            <Route path="/ydelser" element={<Services/>}></Route>
-            <Route path="/cases" element={<Cases/>}></Route>
-            <Route path="/priser" element={<Prices/>}></Route>
-            <Route path="/om-os" element={<About/>}></Route>
-            <Route path="/vaerdier" element={<Values/>}></Route>
-          </Routes>
-          <ContactForm/>
-          <Footer/>
-        </BrowserRouter>
+          <BrowserRouter basename={'/levels'}>
+            <Header />
+            <Routes>
+              <Route path="/" element={<Homepage />}></Route>
+              <Route path="/ydelser" element={<Services />}></Route>
+              <Route path="/cases" element={<Cases />}></Route>
+              <Route path="/priser" element={<Prices />}></Route>
+              <Route path="/om-os" element={<About />}></Route>
+              <Route path="/vaerdier" element={<Values />}></Route>
+            </Routes>
+            <ContactForm />
+            <Footer />
+          </BrowserRouter>
       }
     </div>
   );
