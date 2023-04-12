@@ -50,13 +50,13 @@ export default function Header() {
         <NavLink to="/om-os">Om os</NavLink>
         <NavLink to="/vaerdier">Værdier</NavLink>
         <div className='header-seperator-line'></div>
-        <a href='#' target='_blank'><FacebookIcon /></a>
-        <a href='#' target='_blank'><InstagramIcon /></a>
+        <a href='https://www.facebook.com/webbureaulevels' target='_blank'><FacebookIcon /></a>
+        <a href='https://www.instagram.com/Webbureaulevels' target='_blank'><InstagramIcon /></a>
         <a href='mailto:info@levels.com' target='_blank'><MailIcon /></a>
       </nav>
       <div className='hamburger' onClick={HandleClick}>
-        <div className='hamburger-line'></div>
         <div className={`hamburger-line ${open ? 'smaller-line' : ''}`}></div> {/* add class or empty string based on open value */}
+        <div className='hamburger-line'></div>
       </div>
       <nav ref={ref} className={`mobile-menu`}>
         <NavLink onClick={HandleClick} to="/ydelser">Ydelser</NavLink>
