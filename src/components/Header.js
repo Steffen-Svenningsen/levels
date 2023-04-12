@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo from './icons/Logo'
 import MailIcon from './icons/MailIcon'
@@ -7,42 +7,29 @@ import InstagramIcon from './icons/InstagramIcon'
 
 export default function Header() {
 
-  const ref = useRef(null);
+  const dropdownRef = useRef(null);
+  const burgerRef = useRef(null);
+  const logoRef = useRef(null);
 
-  // hamburger line state
-  const [open, setOpen] = useState();
+  // Hamburger menu state
+  const [open, setOpen] = useState(false);
 
-  // check if hamburger menu contains inactive class on mount
-  // done to prevent animation from playing on page load - just in case :)
-  useEffect(() => {
-    if (ref.current.classList.contains('inactive')) {
-      ref.current.classList.remove('inactive');
-      console.log('Element contained class and was removed for page load');
-    } else {
-      console.log('Element did not contain inactive class, so we are good');
-    }
-  }, []);
-
-  // handle click event
   const HandleClick = e => {
-    console.log('clicked');
-    if (ref.current.classList.contains('active')) {
-      ref.current.classList.remove('active');
-      ref.current.classList.add('inactive');
-      console.log('classlist contained active class, so it was replaced with inactive class')
-    } else {
-      ref.current.classList.add('active');
-      console.log('active class was added')
+    // console.log('clicked');
+
+    if (burgerRef.current.contains(e.target)) {
+      console.log(burgerRef.current);
+      setOpen(!open);
     }
 
-    // flips the boolean value on open when function is called
-    setOpen(!open);
-    console.log('Boolean for open was flipped')
+    if (dropdownRef.current.contains(e.target) || logoRef.current.contains(e.target) && dropdownRef.current.classList.contains('active')) {
+      setOpen(!open);
+    }
   };
 
   return (
     <header>
-      <NavLink className="logo" to="/"><Logo />Levels</NavLink>
+      <NavLink ref={logoRef} onClick={HandleClick} className="logo" to="/"><Logo />Levels</NavLink>
       <nav className='desktop-menu'>
         <NavLink to="/ydelser">Ydelser</NavLink>
         <NavLink to="/cases">Cases</NavLink>
@@ -54,11 +41,11 @@ export default function Header() {
         <a href='https://www.instagram.com/Webbureaulevels' target='_blank'><InstagramIcon /></a>
         <a href='mailto:info@levels.com' target='_blank'><MailIcon /></a>
       </nav>
-      <div className='hamburger' onClick={HandleClick}>
+      <div ref={burgerRef} className='hamburger' onClick={HandleClick}>
         <div className={`hamburger-line ${open ? 'smaller-line' : ''}`}></div> {/* add class or empty string based on open value */}
         <div className='hamburger-line'></div>
       </div>
-      <nav ref={ref} className={`mobile-menu`}>
+      <nav ref={dropdownRef} className={`mobile-menu ${open ? 'active' : 'inactive'}`}>
         <NavLink onClick={HandleClick} to="/ydelser">Ydelser</NavLink>
         <NavLink onClick={HandleClick} to="/cases">Cases</NavLink>
         <NavLink onClick={HandleClick} to="/priser">Priser</NavLink>

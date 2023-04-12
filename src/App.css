@@ -162,12 +162,15 @@ header .mobile-menu {
   width: 100vw;
   top: 70px;
   left: 0;
-  display: none;
+  visibility: hidden;
+  display: flex;
   background-color: #00b14b;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
 }
 
 header .mobile-menu a {
@@ -177,16 +180,11 @@ header .mobile-menu a {
   font-size: 68px;
 }
 
-
-header nav.inactive {
-  display: flex;
-  animation: menuFadeOut 0.7s forwards;
-}
-
 header nav.active {
+  visibility: visible;
   display: flex;
   flex-direction: column;
-  animation: menuFadeIn 0.7s forwards;
+  opacity: 1;
 }
 
 /* Homepage */
@@ -328,7 +326,7 @@ section {
   position: absolute;
   height: 100%;
   width: 80px;
-  background: linear-gradient(90deg, rgba(254,250,248,0) 20%, var(--cta-shade) 20%, var(--cta-shade) 40%, rgba(254,250,248,0) 40%, rgba(254,250,248,0) 60%, var(--cta) 60%, var(--cta) 80%, rgba(254,250,248,0) 80%);
+  background: linear-gradient(90deg, rgba(254, 250, 248, 0) 20%, var(--cta-shade) 20%, var(--cta-shade) 40%, rgba(254, 250, 248, 0) 40%, rgba(254, 250, 248, 0) 60%, var(--cta) 60%, var(--cta) 80%, rgba(254, 250, 248, 0) 80%);
   right: 2rem;
   top: 0;
 }
