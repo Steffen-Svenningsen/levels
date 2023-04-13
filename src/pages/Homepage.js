@@ -4,6 +4,9 @@ import NatureImg from '../images/nature-hero.webp'
 import PeopleImg from '../images/people-hero.webp'
 import WorkImg from '../images/Work.webp'
 import DesignImg from '../images/Design.webp'
+import Testimonial from '../components/Testimonial'
+import Henrik from "../images/henrik.webp"
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -79,7 +82,7 @@ export default function Homepage() {
           </div>
         </div>
       </section>
-      <section className='col-2'>
+      <section className='testimonial-section'>
         <div>
           <h1>Hvad siger vores kunder?</h1>
           <div className='gradient-line'></div>
@@ -96,7 +99,9 @@ export default function Homepage() {
             slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}>
-            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>
+              <Testimonial name="Henrik" imgSrc={Henrik} title="CEO, Outdoor Games" text="Jeg kan helt klart anbefale Levels. Det er et seriøst webbureau der vil en det bedste og Jeg var meget glade for det engagement de havde til mit projekt."/>
+            </SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
