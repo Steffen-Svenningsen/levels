@@ -18,15 +18,15 @@ export default function Homepage() {
     <div className='page'>
       <section className='hero-section'>
         <div>
-          <img src={GreenImg} width={300} height={200} alt='Green'/>
+          <img src={GreenImg} width={300} height={200} alt='Green' />
           <span><i className='hero-word'>Nytænkende</i><b>Webbureau</b> for</span>
         </div>
         <div>
           <span><b>Folket</b> og</span>
-          <img src={PeopleImg} width={900} height={220} alt='People smilling'/>
+          <img src={PeopleImg} width={900} height={220} alt='People smilling' />
         </div>
         <div>
-          <img src={NatureImg} width={900} height={220} alt='Nature'/>
+          <img src={NatureImg} width={900} height={220} alt='Nature' />
           <span><b>Fremtiden</b></span>
         </div>
       </section>
@@ -34,15 +34,15 @@ export default function Homepage() {
         <div>
           <h1>Få et indblik.</h1>
           <div className='gradient-line'></div>
-          <p>Levels er et transparent webbureau med højt til loftet. Vi er et team af erfarende sjæle og nysgerrige talenter.<p/>
-          <p>Hos os er rummet fyldt af kompetencer indenfor web-design, udvikling, markedsføring, SEO, content-creation og meget mere.</p>
-          <p>På vores kontor tror vi på at man kan hente et bedre produkt ved tæt samarbejde med kunden. Vi er derfor altid transparente i vores arbejde og kunden har altid det første og sidste ord at indføre.</p>
-          <p>Vi rummer mange forskellige arbejdsopgaver og er altid klar på nye og spændende projekter!</p>
+          <p>Levels er et transparent webbureau med højt til loftet. Vi er et team af erfarende sjæle og nysgerrige talenter.<p />
+            <p>Hos os er rummet fyldt af kompetencer indenfor web-design, udvikling, markedsføring, SEO, content-creation og meget mere.</p>
+            <p>På vores kontor tror vi på at man kan hente et bedre produkt ved tæt samarbejde med kunden. Vi er derfor altid transparente i vores arbejde og kunden har altid det første og sidste ord at indføre.</p>
+            <p>Vi rummer mange forskellige arbejdsopgaver og er altid klar på nye og spændende projekter!</p>
             <b><i>Levels</i></b>
           </p>
         </div>
         <div>
-          <img src={WorkImg} width={700} height={680} alt='Kontor'/>
+          <img src={WorkImg} width={700} height={680} alt='Kontor' />
         </div>
       </section>
       <section className='col-2 info-section'>
@@ -52,22 +52,22 @@ export default function Homepage() {
             <p>Vi har mange værktøjer når det gælder design.</p>
             <p>Om det er Figma, Adobe XD eller noget helt trejde så garanterer vi et stilrent design med tanke bag.</p>
           </div>
-          <img src={DesignImg} width={400} height={400} alt='Design'/>
+          <img src={DesignImg} width={400} height={400} alt='Design' />
         </div>
         <div>
           <div className='tool-text-full'>
             <h3>Udvikling</h3>
-            <p>Hos Levels kan vi lave alt fra standardløsninger som Wordpress, Wix, Webflow til custom løsningser i Vue og React. Kender du intet til disse værktøjer så fortvivl ej! Vores dygtige konsulenter rådgiver dig altid til den løsning der skaber mest værdi for dig og din ide.</p>
+            <p>Hos Levels kan vi lave alt fra standardløsninger som Wordpress, Wix, Webflow til custom løsninger i Vue og React. Kender du intet til disse værktøjer så fortvivl ej! Vores dygtige konsulenter rådgiver dig altid til den løsning der skaber mest værdi for dig og din ide.</p>
             <p>Vi er altid up-to-date med de nyeste teknologier så vi kan sikre dig en fremtidssikret løsning.</p>
             <p>Skal vi lave en fed løsning til dig? Så kontakt os endelig.</p>
           </div>
         </div>
         <div className='grey-box border-corner'>
           <div className='tool-box-text'>
-              <h3>Hosting</h3>
-              <p>Ønsker du at tilkøbe hosting er det også en mulighed hos os.</p>
-              <p>Vi tilbyder en abonnementsløsning, hvor vi hoster din hjemmeside for et månedligt beløb. Ved køb af en hjemmeside får du de 3 første måneders hosting gratis!</p>
-              <p>Når det kommer til hosting bruger vi kun grønne server. Dvs. at din hjemmeside kommer til at blive drevet af grøn energi.</p>
+            <h3>Hosting</h3>
+            <p>Ønsker du at tilkøbe hosting er det også en mulighed hos os.</p>
+            <p>Vi tilbyder en abonnementsløsning, hvor vi hoster din hjemmeside for et månedligt beløb. Ved køb af en hjemmeside får du de 3 første måneders hosting gratis!</p>
+            <p>Når det kommer til hosting bruger vi kun grønne servere. Dvs. at din hjemmeside kommer til at blive drevet af grøn energi.</p>
           </div>
         </div>
         <div className='grey-box right-side-line'>
@@ -84,23 +84,23 @@ export default function Homepage() {
           <h1>Hvad siger vores kunder?</h1>
           <div className='gradient-line'></div>
           <p>Vores kunder betyder utrolig meget for os og vi vil gøre alt i vores magt for at de alle er tilfredse.
-          <p>Hos Levels går vi ind for et tæt samarbejde med kunden og vi ligger aldrig skjul på noget. </p>
-          <p>Vores priser er transparente og vi er altid til at få fat på hvis du kommer på gode ideer til din løsning.</p>
-          <p>Det vil sige, at du som kunde hos os altid er sikker på at der ikke kommer tillægsgebyr eller lignende ind af brevsprækken, mens du samtidig er garanteret en god serivce og et godt produkt.</p>
+            <p>Hos Levels går vi ind for et tæt samarbejde med kunden og vi ligger aldrig skjul på noget. </p>
+            <p>Vores priser er transparente og vi er altid til at få fat på hvis du kommer på gode ideer til din løsning.</p>
+            <p>Det vil sige, at du som kunde hos os altid er sikker på at der ikke kommer tillægsgebyr eller lignende ind af brevsprækken, mens du samtidig er garanteret en god serivce og et godt produkt.</p>
           </p>
         </div>
         <div>
-        <Swiper
-          navigation={true} modules={[Navigation]}
-          spaceBetween={50}
-          slidesPerView={1}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}>
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-        </Swiper>
+          <Swiper
+            navigation={true} modules={[Navigation]}
+            spaceBetween={50}
+            slidesPerView={1}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}>
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+          </Swiper>
         </div>
       </section>
     </div>
