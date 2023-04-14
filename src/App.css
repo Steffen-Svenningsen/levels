@@ -355,7 +355,7 @@ section {
   gap: 3rem;
 }
 
-.testimonial-section > div {
+.testimonial-section>div {
   width: clamp(30%, 600px, 100%);
 }
 
@@ -371,7 +371,7 @@ section {
   flex-wrap: wrap;
 }
 
-.testimonial > div {
+.testimonial>div {
   flex: 40%;
 }
 
@@ -469,6 +469,7 @@ section {
   width: clamp(280px, 40%, 800px);
   position: relative;
 }
+
 .service-box img {
   filter: blur(4px);
   transition: 0.3s;
@@ -554,8 +555,112 @@ section {
   flex: 1;
 }
 
+/* Values */
+.bold {
+  font-weight: 700;
+}
+
+.values-banner {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  border-radius: 100px 100px 0 100px;
+  margin-top: 5rem;
+}
+
+.values-banner h1 {
+  font-size: var(--content-heading);
+  width: max-content;
+  margin: 0 auto;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(90, 188, 253);
+}
+
+.values-content {
+  display: flex;
+  gap: clamp(2vw, 10rem, 10vw);
+}
+
+.values-content h1 {
+  font-size: var(--content-heading);
+  margin-bottom: 0.5rem;
+}
+
+.values-content>* {
+  flex: 1;
+}
+
+.values-content-text {
+  max-width: 500px;
+  min-width: 280px;
+}
+
+.values-content-image {
+  background-color: black;
+  min-height: 280px;
+  min-width: 280px;
+}
+
+.statistics .graphs {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.statistics .graphs .blob {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 250px;
+  height: 220px;
+  margin: 0 auto;
+  display: flex;
+  color: black;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
 
 
+.statistics .graphs .pink-blob {
+  background-image: url(images/pinkblob.svg);
+}
+
+.statistics .graphs .blue-blob {
+  background-image: url(images/blueblob.svg);
+}
+
+.statistics .graphs .green-blob {
+  background-image: url(images/greenblob.svg);
+}
+
+.statistics .graphs>* {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.statistics .graphs a {
+  text-decoration: none;
+  color: var(--cta);
+}
+
+.contact-us-cta {
+  max-width: 850px;
+}
+
+.contact-us-cta h1 {
+  font-size: var(--content-heading);
+  margin-bottom: 0.5rem;
+}
+
+.contact-us-cta a {
+  text-decoration: none;
+  color: var(--cta);
+}
 
 @keyframes menuFadeIn {
   from {
@@ -782,6 +887,14 @@ footer .footer-bottom {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .values-content {
+    flex-direction: column;
+  }
+
+  .climate-action .values-content {
+    flex-direction: column-reverse;
   }
 
   .loading-page .stair {
