@@ -100,7 +100,7 @@ export default function Values() {
         </p>
         <p>
           Når du vælger at købe en hjemmeside hos os, så kan du vise dine besøgende, at din virksomhed bekymrer sig om planeten og tager
-          ansvar for at reducere dit CO2-aftryk. Vores team af ekspereter kan hjælpe dig med at skabe en langtidsholdbar online tilstedeværelse ved at udnytte
+          ansvar for at reducere dit CO2-aftryk. Vores team af eksperter kan hjælpe dig med at skabe en langtidsholdbar online tilstedeværelse ved at udnytte
           de bedste teknologier og designprincipper til det givne projekt.
         </p>
         <p>
