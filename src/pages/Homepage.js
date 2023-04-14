@@ -6,6 +6,8 @@ import WorkImg from '../images/Work.webp'
 import DesignImg from '../images/Design.webp'
 import Testimonial from '../components/Testimonial'
 import Henrik from "../images/henrik.webp"
+import Olivia from "../images/olivia.webp"
+import Peter from "../images/peter.webp"
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -102,9 +104,12 @@ export default function Homepage() {
             <SwiperSlide>
               <Testimonial name="Henrik" imgSrc={Henrik} title="CEO, Outdoor Games" text="Jeg kan helt klart anbefale Levels. Det er et seriøst webbureau der vil en det bedste og Jeg var meget glade for det engagement de havde til mit projekt."/>
             </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>
+              <Testimonial name="Peter" imgSrc={Peter} title="CEO, PA Lagerservice" text="Jeg havde tidligere arbejdet med webbureauer der kun tænkte på penge, men sådan var samarbejdet med Levels slet ikke! Levels hører hvad man siger."/>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Testimonial name="Olivia" imgSrc={Olivia} title="CEO, Åens Advokater" text="Vi manglede en hjemmeside og kiggede efter et prisvenligt og eftertænktsom bureau. Her faldt valget på Levels og det har vi aldrig fortrudt."/>
+            </SwiperSlide>
           </Swiper>
         </div>
       </section>
