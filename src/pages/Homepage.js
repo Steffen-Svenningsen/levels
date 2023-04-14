@@ -39,12 +39,11 @@ export default function Homepage() {
         <div>
           <h1>Få et indblik.</h1>
           <div className='gradient-line'></div>
-          <p>Levels er et transparent webbureau med højt til loftet. Vi er et team af erfarende sjæle og nysgerrige talenter.<p />
-            <p>Hos os er rummet fyldt af kompetencer indenfor web-design, udvikling, markedsføring, SEO, content-creation og meget mere.</p>
-            <p>På vores kontor tror vi på at man kan hente et bedre produkt ved tæt samarbejde med kunden. Vi er derfor altid transparente i vores arbejde og kunden har altid det første og sidste ord at indføre.</p>
-            <p>Vi rummer mange forskellige arbejdsopgaver og er altid klar på nye og spændende projekter!</p>
-            <b><i>Levels</i></b>
-          </p>
+          <p>Levels er et transparent webbureau med højt til loftet. Vi er et team af erfarende sjæle og nysgerrige talenter.</p>
+          <p>Hos os er rummet fyldt af kompetencer indenfor web-design, udvikling, markedsføring, SEO, content-creation og meget mere.</p>
+          <p>På vores kontor tror vi på at man kan hente et bedre produkt ved tæt samarbejde med kunden. Vi er derfor altid transparente i vores arbejde og kunden har altid det første og sidste ord at indføre.</p>
+          <p>Vi rummer mange forskellige arbejdsopgaver og er altid klar på nye og spændende projekter!</p>
+          <b><i>Levels</i></b>
         </div>
         <div>
           <img src={WorkImg} width={700} height={680} alt='Kontor' />
@@ -102,13 +101,13 @@ export default function Homepage() {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}>
             <SwiperSlide>
-              <Testimonial name="Henrik" imgSrc={Henrik} title="CEO, Outdoor Games" text="Jeg kan helt klart anbefale Levels. Det er et seriøst webbureau der vil en det bedste og Jeg var meget glade for det engagement de havde til mit projekt."/>
+              <Testimonial name="Henrik" imgSrc={Henrik} title="CEO, Outdoor Games" text="Jeg kan helt klart anbefale Levels. Det er et seriøst webbureau der vil en det bedste og Jeg var meget glade for det engagement de havde til mit projekt." />
             </SwiperSlide>
             <SwiperSlide>
-              <Testimonial name="Peter" imgSrc={Peter} title="CEO, PA Lagerservice" text="Jeg havde tidligere arbejdet med webbureauer der kun tænkte på penge, men sådan var samarbejdet med Levels slet ikke! Levels hører hvad man siger."/>
+              <Testimonial name="Peter" imgSrc={Peter} title="CEO, PA Lagerservice" text="Jeg havde tidligere arbejdet med webbureauer der kun tænkte på penge, men sådan var samarbejdet med Levels slet ikke! Levels hører hvad man siger." />
             </SwiperSlide>
             <SwiperSlide>
-              <Testimonial name="Olivia" imgSrc={Olivia} title="CEO, Åens Advokater" text="Vi manglede en hjemmeside og kiggede efter et prisvenligt og eftertænktsom bureau. Her faldt valget på Levels og det har vi aldrig fortrudt."/>
+              <Testimonial name="Olivia" imgSrc={Olivia} title="CEO, Åens Advokater" text="Vi manglede en hjemmeside og kiggede efter et prisvenligt og eftertænktsom bureau. Her faldt valget på Levels og det har vi aldrig fortrudt." />
             </SwiperSlide>
           </Swiper>
         </div>

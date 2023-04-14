@@ -560,6 +560,20 @@ section {
   font-weight: 700;
 }
 
+.sustainability,
+.climate-action {
+  max-width: 1450px;
+  margin-inline: auto;
+}
+
+.values-banner div {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px 100px 0 100px;
+}
+
 .values-content {
   display: flex;
   gap: clamp(2vw, 10rem, 10vw);
@@ -570,18 +584,12 @@ section {
   margin-bottom: 0.5rem;
 }
 
-.values-content>* {
-  flex: 1;
-}
-
 .values-content-text {
   max-width: 500px;
   min-width: 280px;
 }
 
 .values-content-image {
-  background-color: black;
-  min-height: 280px;
   min-width: 280px;
 }
 

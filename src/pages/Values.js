@@ -8,9 +8,9 @@ export default function Values() {
   return (
     <div className='page'>
       <SubpageHeroText whiteText="Vi tror på at vi sammen kan skabe en grønnere fremtid. " greyText="Men vi har brug for din hjælp." />
-      <section>
+      <section className='values-banner'>
         <div>
-          <img src={Banner} width={1500} height={500} alt='Banner'/>
+          <img src={Banner} width={1500} height={500} alt='Banner' />
         </div>
       </section>
       <section className='sustainability'>
@@ -30,15 +30,15 @@ export default function Values() {
               Ved at omfavne miljøvenlige praksisser kan vi mindske vores CO2-fodaftryk og arbejde mod en mere bæredygtig fremtid.
             </p>
           </div>
-          <div>
-            <img src={Plant} width={750} height={500} alt='Bæredygtighed'/>
+          <div className='values-content-image'>
+            <img src={Plant} width={750} height={500} alt='Bæredygtighed' />
           </div>
         </div>
       </section>
       <section className='climate-action'>
         <div className='values-content'>
-          <div>
-            <img src={OneWorld} width={750} height={500} alt='Klimaindsats'/>
+          <div className='values-content-image'>
+            <img src={OneWorld} width={750} height={500} alt='Klimaindsats' />
           </div>
           <div className='values-content-text'>
             <h1>Klimaindsats.</h1>
@@ -107,7 +107,7 @@ export default function Values() {
           de bedste teknologier og designprincipper til det givne projekt.
         </p>
         <p>
-          Lyder det intressant? Så kontakt os i formularen nedenfor.
+          Lyder det interessant? Så kontakt os i formularen nedenfor.
         </p>
       </section>
     </div>
