@@ -1,18 +1,15 @@
 import React from 'react'
 import SubpageHeroText from '../components/SubpageHeroText'
-import PhoneIcon from '../components/icons/PhoneIcon'
-import MailIcon from '../components/icons/MailIcon'
+import Banner from "../images/banner.webp"
 
 export default function Values() {
   return (
     <div className='page'>
       <SubpageHeroText whiteText="Vi tror på at vi sammen kan skabe en grønnere fremtid. " greyText="Men vi har brug for din hjælp." />
-      <section className='values-banner'>
-        <h1>TIME</h1>
-        <br />
-        <h1>IS</h1>
-        <br />
-        <h1>PRECIOUS.</h1>
+      <section>
+        <div>
+          <img src={Banner} width={1500} height={500} alt='Banner'/>
+        </div>
       </section>
       <section className='sustainability'>
         <div className='values-content'>
@@ -41,7 +38,7 @@ export default function Values() {
             <h1>Klimaindsats.</h1>
             <div className='gradient-line'></div>
             <p>
-              Som webbureau har vi et ansvar for at minimere vores indvirkning på miljøet samt fremme bæredygtige praksisser.
+              Vi skal alle gøre en indsats når det kommer til klimaet, også her hos Levels, hvor vi gør flere ting for at holde verdenen så grøn og fremtidsdygtig som muligt.
             </p>
             <p>
               <span className='bold'>Reducering af energiforbrug.</span> Vores udstyr er så energieffektivt vi kan gøre det, vi bruger f.eks.
@@ -65,7 +62,7 @@ export default function Values() {
               <p>400.4%</p>
             </div>
             <p>
-              Ifølge <a href='https://httparchive.org/reports/page-weight?start=earliest&end=latest'>HTTPArchive.org</a>,
+              Ifølge <a target='_blank' href='https://httparchive.org/reports/page-weight?start=earliest&end=latest'>HTTPArchive.org</a>,
               er den gennemsnitlige hjemmeside i dag fire gange større end i 2010.
             </p>
           </div>
@@ -74,7 +71,7 @@ export default function Values() {
               <p>4.61g CO2</p>
             </div>
             <p>
-              Ifølge <a href='https://www.wholegraindigital.com/blog/carbon-calculator-v2/'>WHOLEGRAIN digital</a>,
+              Ifølge <a target='_blank' href='https://www.wholegraindigital.com/blog/carbon-calculator-v2/'>WHOLEGRAIN digital</a>,
               udleder den gennemsnitlige testede hjemmeside 4.61g CO2.
             </p>
           </div>
@@ -85,7 +82,7 @@ export default function Values() {
               </p>
             </div>
             <p>
-              Ifølge <a href='https://www.wholegraindigital.com/blog/carbon-calculator-v2/'>WHOLEGRAIN digital</a>,
+              Ifølge <a target='_blank' href='https://www.wholegraindigital.com/blog/carbon-calculator-v2/'>WHOLEGRAIN digital</a>,
               bruger kun 29% af testede hjemmesider bæredygtig hosting.
             </p>
           </div>
@@ -104,8 +101,7 @@ export default function Values() {
           de bedste teknologier og designprincipper til det givne projekt.
         </p>
         <p>
-          Kontakt os i formularen nedenfor, <a className='phone' href='mailto:info@levels.com'><MailIcon /> send en mail</a>,
-          eller <a className='mail' href='callto:12345678'><PhoneIcon /> ring</a>.
+          Lyder det intressant? Så kontakt os i formularen nedenfor.
         </p>
       </section>
     </div>
