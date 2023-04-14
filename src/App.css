@@ -562,7 +562,6 @@ section {
 
 .sustainability,
 .climate-action {
-  max-width: 1450px;
   margin-inline: auto;
 }
 
@@ -576,6 +575,7 @@ section {
 
 .values-content {
   display: flex;
+  justify-content: space-between;
   gap: clamp(2vw, 10rem, 10vw);
 }
 
@@ -584,13 +584,18 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.values-content>* {
+  flex: 1;
+}
+
 .values-content-text {
-  max-width: 500px;
+  max-width: 800px;
   min-width: 280px;
 }
 
 .values-content-image {
   min-width: 280px;
+  max-width: 800px;
 }
 
 .statistics .graphs {
