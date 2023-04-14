@@ -1,6 +1,8 @@
 import React from 'react'
 import SubpageHeroText from '../components/SubpageHeroText'
 import Banner from "../images/banner.webp"
+import OneWorld from "../images/one-world.webp"
+import Plant from "../images/sustainability.webp"
 
 export default function Values() {
   return (
@@ -28,12 +30,16 @@ export default function Values() {
               Ved at omfavne miljøvenlige praksisser kan vi mindske vores CO2-fodaftryk og arbejde mod en mere bæredygtig fremtid.
             </p>
           </div>
-          <div className='values-content-image'></div>
+          <div>
+            <img src={Plant} width={750} height={500} alt='Bæredygtighed'/>
+          </div>
         </div>
       </section>
       <section className='climate-action'>
         <div className='values-content'>
-          <div className='values-content-image'></div>
+          <div>
+            <img src={OneWorld} width={750} height={500} alt='Klimaindsats'/>
+          </div>
           <div className='values-content-text'>
             <h1>Klimaindsats.</h1>
             <div className='gradient-line'></div>
