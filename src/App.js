@@ -11,6 +11,7 @@ import Values from './pages/Values';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
+import ScrollToTop from './helpers/ScrollToTop';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -31,6 +32,7 @@ function App() {
           :
 
           <BrowserRouter basename={'/levels'}>
+            <ScrollToTop />
             <Header />
             <Routes>
               <Route path="/" element={<Homepage />}></Route>
