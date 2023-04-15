@@ -90,7 +90,7 @@ export default function Homepage() {
           <p>Vores kunder betyder utrolig meget for os og vi vil gøre alt i vores magt for at de alle er tilfredse.
             <p>Hos Levels går vi ind for et tæt samarbejde med kunden og vi ligger aldrig skjul på noget. </p>
             <p>Vores priser er transparente og vi er altid til at få fat på hvis du kommer på gode ideer til din løsning.</p>
-            <p>Det vil sige, at du som kunde hos os altid er sikker på at der ikke kommer tillægsgebyr eller lignende ind af brevsprækken, mens du samtidig er garanteret en god serivce og et godt produkt.</p>
+            <p>Det vil sige, at du som kunde hos os altid er sikker på at der ikke kommer tillægsgebyr eller lignende ind af brevsprækken, mens du samtidig er garanteret en god service og et godt produkt.</p>
           </p>
         </div>
         <div>
