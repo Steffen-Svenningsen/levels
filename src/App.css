@@ -460,13 +460,29 @@ section {
 }
 
 /* About */
+
+.about-image-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .image-2 {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .image-2 img {
   min-width: 280px;
+}
+
+.image-2 img:first-of-type {
+  flex: 40%;
+}
+
+.image-2 img:last-of-type {
+  flex: 55%;
 }
 
 .meet-your-team-section h1 {
