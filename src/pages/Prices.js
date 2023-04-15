@@ -66,7 +66,7 @@ export default function Prices() {
           <img src={Cashcow} width={600} height={400} alt='Pengeko' />
         </div>
         <div>
-          <h1>Der er mange variabler</h1>
+          <h1>Der er mange variabler.</h1>
           <div className='gradient-line'></div>
           <p>Vi giver dig en estimeret pris, som er baseret på en række ting. Hvis du har brug for,
             at dit website skal have funktioner såsom et booking system, mulighed for flere sprog,

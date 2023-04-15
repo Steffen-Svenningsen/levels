@@ -17,7 +17,7 @@ export default function About() {
           <img src='' width={1500} height={500} alt=''/>
         </div>
       </section>
-      <section>
+      <section className="meet-your-team-section">
         <h1>Mød dit kommende team.</h1>
         <div className='gradient-line'></div>
         <div className='employees'>

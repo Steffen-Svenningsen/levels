@@ -5,7 +5,7 @@ export default function Cases() {
   return (
     <div className='page'>
       <SubpageHeroText whiteText="Hos Levels er vi stolte " greyText="over at kunne vise vores arbejde for vores kunder frem."/>
-      <section>
+      <section className="case-section">
         <h1>Seneste cases.</h1>
         <div className='gradient-line'></div>
       </section>
