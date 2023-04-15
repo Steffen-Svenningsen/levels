@@ -308,6 +308,11 @@ section {
   min-width: 0;
 }
 
+.tool-box-text {
+  position: relative;
+  z-index: 20;
+}
+
 .border-corner {
   border-radius: 100px 100px 0 100px;
 }
