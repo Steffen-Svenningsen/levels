@@ -18,7 +18,7 @@ export default function Header() {
     // console.log('clicked');
 
     if (burgerRef.current.contains(e.target)) {
-      console.log(burgerRef.current);
+      // console.log(burgerRef.current);
       setOpen(!open);
     }
 

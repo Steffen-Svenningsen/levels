@@ -310,7 +310,7 @@ section {
 
 .tool-box-text {
   position: relative;
-  z-index: 20;
+  z-index: 5;
 }
 
 .border-corner {
@@ -378,6 +378,9 @@ section {
 
 .testimonial>div {
   flex: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .testimonial h3 {
@@ -751,6 +754,7 @@ footer .footer-main .mail {
 footer .footer-bottom {
   color: var(--text-secondary);
   font-size: 0.5rem;
+  margin-top: 1rem;
 }
 
 /* Contact form */
