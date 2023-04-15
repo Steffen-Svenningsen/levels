@@ -531,6 +531,40 @@ section {
   font-size: var(--content-heading);
 }
 
+.cases {
+  display: flex;
+  flex-direction: column;
+}
+
+.cases .case {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid var(--cta-shade);
+  padding: 1rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.case h1 {
+  margin-bottom: 0.5rem;
+  font-size: 28px;
+}
+
+.ziropa {
+  border-radius: 50px 50px 50px 0;
+}
+
+.memphis-mansion {
+  border-radius: 0 50px 50px 50px;
+}
+
+.outdoor-games {
+  border-radius: 50px 0px 50px 50px;
+}
+
+
+
 /* Prices */
 .price-intro {
   max-width: 800px;

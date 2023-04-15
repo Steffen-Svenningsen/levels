@@ -12,6 +12,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 import ScrollToTop from './helpers/ScrollToTop';
+import Ziropa from './pages/Ziropa';
+import MemphisMansion from './pages/MemphisMansion';
+import OutdoorGames from './pages/OutdoorGames';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -41,6 +44,9 @@ function App() {
               <Route path="/priser" element={<Prices />}></Route>
               <Route path="/om-os" element={<About />}></Route>
               <Route path="/vaerdier" element={<Values />}></Route>
+              <Route path="/cases/ziropa" element={<Ziropa />}></Route>
+              <Route path="/cases/memphis-mansion" element={<MemphisMansion />}></Route>
+              <Route path="/cases/outdoor-games" element={<OutdoorGames />}></Route>
             </Routes>
             <ContactForm />
             <Footer />
