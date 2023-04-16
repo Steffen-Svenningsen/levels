@@ -563,7 +563,37 @@ section {
   border-radius: 50px 0px 50px 50px;
 }
 
+/* Case subpage */
+.expertise {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
 
+.no-margin {
+  margin: 0;
+}
+
+.tools-used {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 1rem;
+}
+
+.case-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.case-images img {
+  max-width: 650px;
+  min-width: 280px;
+}
+
+.case-info-section {
+  max-width: 70ch;
+}
 
 /* Prices */
 .price-intro {
