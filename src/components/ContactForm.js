@@ -6,9 +6,9 @@ export default function ContactForm() {
       <div className='form-textbox'>
         <h1>Kom i kontakt.</h1>
         <p>
-          Vi vil elske at høre om din ide!<br /> <br />
-          Om det er hjælp til en ny hjemmeside eller noget helt andet så er vi klar til at give vores besyv med.<br /> <br />
-          Brug kontaktformularen her til at kontakte os og så vil vi vende tilbage hurtigst muligt.
+          Vi vil elske at høre om din idé!<br /> <br />
+          Om det er hjælp til en ny hjemmeside eller noget helt andet, så er vi klar til at give vores besyv med.<br /> <br />
+          Brug kontaktformularen her til at kontakte os, og så vil vi vende tilbage hurtigst muligt.
         </p>
       </div>
       <form action='https://getform.io/f/853d289e-6fdb-4753-85b3-b792b793fad0' method='POST'>

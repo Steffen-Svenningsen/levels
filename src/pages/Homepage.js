@@ -88,10 +88,10 @@ export default function Homepage() {
         <div>
           <h1>Hvad siger vores kunder?</h1>
           <div className='gradient-line'></div>
-          <p>Vores kunder betyder utrolig meget for os og vi vil gøre alt i vores magt for at de alle er tilfredse.</p>
+          <p>Vores kunder betyder utrolig meget for os, og vi vil gøre alt i vores magt for, at de alle er tilfredse.</p>
           <p>Hos Levels går vi ind for et tæt samarbejde med kunden og vi ligger aldrig skjul på noget. </p>
           <p>Vores priser er transparente og vi er altid til at få fat på hvis du kommer på gode ideer til din løsning.</p>
-          <p>Det vil sige, at du som kunde hos os altid er sikker på at der ikke kommer tillægsgebyr eller lignende ind af brevsprækken, mens du samtidig er garanteret en god service og et godt produkt.</p>
+          <p>Det vil sige, at du som kunde hos os altid er sikker på, at der ikke kommer tillægsgebyr eller lignende ind af brevsprækken, mens du samtidig er garanteret en god service og et godt produkt.</p>
         </div>
         <div>
           <Swiper
@@ -107,7 +107,7 @@ export default function Homepage() {
               <Testimonial name="Peter" imgSrc={Peter} title="CEO, PA Lagerservice" text="Jeg havde tidligere arbejdet med webbureauer der kun tænkte på penge, men sådan var samarbejdet med Levels slet ikke! Levels hører hvad man siger." />
             </SwiperSlide>
             <SwiperSlide>
-              <Testimonial name="Olivia" imgSrc={Olivia} title="CEO, Åens Advokater" text="Vi manglede en hjemmeside og kiggede efter et prisvenligt og eftertænktsom bureau. Her faldt valget på Levels og det har vi aldrig fortrudt." />
+              <Testimonial name="Olivia" imgSrc={Olivia} title="CEO, Åens Frisør" text="Levels hjalp os med at se fordele ved en bæredygtig hjemmeside. De har skærpet vores kunders brugeroplevelse, samt sat et grønt aftryk på kloden!" />
             </SwiperSlide>
           </Swiper>
         </div>

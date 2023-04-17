@@ -5,7 +5,7 @@ import SubpageHeroText from '../components/SubpageHeroText'
 export default function Prices() {
   return (
     <div className='page'>
-      <SubpageHeroText whiteText="Transparente priser. " greyText="Vi ønsker ikke at have kunder i klemme og derfor er vi altid ærlige med vores priser."/>
+      <SubpageHeroText whiteText="Transparente priser. " greyText="Vi ønsker ikke at have kunder i klemme, og derfor er vi altid ærlige med vores priser."/>
       <section className='price-intro'>
         <div>
           <h1>Vores priser.</h1>
