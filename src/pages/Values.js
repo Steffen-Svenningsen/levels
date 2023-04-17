@@ -52,7 +52,7 @@ export default function Values() {
             </p>
             <p>
               <span className='bold'>Reducering af emissioner.</span> Vi bruger - også når vi laver en hjemmeside til dig - grøn webhosting, dvs. at de servere der kører
-              det vi laver, bruger edvarende energikilder som sol, vand, eller vind. Samtidig sørger vi for at minimére størrelsen på din
+              det vi laver, bruger vedvarende energikilder som sol, vand, eller vind. Samtidig sørger vi for at minimére størrelsen på din
               hjemmeside, hvilket både giver brugere en bedre oplevelse gennem bedre performance, og et lavere aftryk.
             </p>
             <p>

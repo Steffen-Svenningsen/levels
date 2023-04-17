@@ -13,6 +13,10 @@
 }
 
 /* Global App styling */
+* {
+  box-sizing: border-box;
+}
+
 .App {
   width: 100%;
   min-height: 100vh;
@@ -86,7 +90,8 @@ div img {
 
 /* Margin-top for at medregne vores headers height */
 .page {
-  margin: 100px 0;
+  margin: 100px auto;
+  max-width: 1450px;
 }
 
 /* Header */
@@ -210,6 +215,7 @@ header nav.active {
   width: 100%;
   justify-content: space-between;
   gap: 2rem;
+  position: relative;
 }
 
 .hero-section div span {
@@ -452,6 +458,7 @@ section {
 }
 
 .employee-card {
+  max-width: 23%;
   min-width: 280px;
 }
 
@@ -787,12 +794,13 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 1450px;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.15);
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 38px;
-  margin-top: 100px;
+  margin: 100px auto 0 auto;
 }
 
 footer div {
@@ -853,6 +861,8 @@ footer .footer-bottom {
 
 /* Contact form */
 .contact-form {
+  max-width: 1450px;
+  margin: 0 auto;
   display: flex;
   background-color: var(--text-secondary);
   padding: 2rem;
@@ -958,6 +968,14 @@ footer .footer-bottom {
   .design-box img {
     right: -30%;
     top: 45%;
+  }
+
+}
+
+@media (max-width: 967px) {
+  .employee-card {
+    flex: 1;
+    max-width: initial;
   }
 
 }
