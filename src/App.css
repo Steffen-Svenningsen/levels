@@ -133,6 +133,10 @@ header .desktop-menu a {
   transition: 0.2s;
 }
 
+header .desktop-menu a:hover {
+  color: var(--cta);
+}
+
 header .desktop-menu a.active {
   font-weight: 700;
   border-bottom: 2px solid transparent;
