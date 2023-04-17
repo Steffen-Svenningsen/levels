@@ -39,8 +39,9 @@ export default function Homepage() {
         <div>
           <h1>Få et indblik.</h1>
           <div className='gradient-line'></div>
-          <p>Levels er et transparent webbureau med højt til loftet. Vi er et team af erfarende sjæle og nysgerrige talenter.</p>
+          <p>Vi er et transparent webbureau med højt til loftet, hvor vores team består af erfarende sjæle og nysgerrige talenter.</p>
           <p>Hos os er rummet fyldt af kompetencer indenfor web-design, udvikling, markedsføring, SEO, content-creation og meget mere.</p>
+          <p>Levels er placeret i et centralt kontorfællesskab, hvor væggene rummer flere forskellige virksomheder indenfor IT-branchen. Dette ser vi som en styrke, da vi har en masse erfarne sparringspartnere som i sidste ende kan være med til at skabe endnu bedre løsninger for vores kunder.</p>
           <p>På vores kontor tror vi på at man kan hente et bedre produkt ved tæt samarbejde med kunden. Vi er derfor altid transparente i vores arbejde og kunden har altid det første og sidste ord at indføre.</p>
           <p>Vi rummer mange forskellige arbejdsopgaver og er altid klar på nye og spændende projekter!</p>
           <b><i>Levels</i></b>
