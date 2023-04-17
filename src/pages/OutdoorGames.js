@@ -20,11 +20,11 @@ export default function OutdoorGames() {
         </div>
       </section>
       <section className='case-info-section'>
-        <h1>Et samarbejde med mening.</h1>
+        <h1>Re-branding gav pote.</h1>
         <div className='gradient-line'></div>
-        <p>Outdoor Games havde brug for en gnist i deres online tilstedeværelse. De kom til os med en opgave hvori de ville have moderniseret deres hjemmeside for at kunne fange nogle kunder den vej igennem, så de ikke <b>kun</b> skulle stole på omtale</p>
-        <p>De havde ikke rigtig noget specielt i tankerne, så de lod os hos Levels overtage hele processen. Selvfølgelig med regelmæssige opdateringer!</p>
-        <p>Vi researchede deres målgruppe og lavede konkurrentanalyse, hvorefter vi gik i gang med små idéer i form af udkast. Gennem dette kom vi frem til det design og layout der bedst passede til problemformuleringen.</p>
+        <p>Outdoor Games havde brug for en gnist i deres online tilstedeværelse. De kom til os med en opgave hvori de ville have moderniseret deres hjemmeside for at kunne fange nogle kunder den vej igennem, så de ikke <b>kun</b> skulle stole på omtale.</p>
+        <p>De havde ikke rigtig noget specielt i tankerne, så de lod os hos Levels overtage hele processen. Selvfølgelig med regelmæssige opdateringer! Dette gav os frie tøjler til at skabe et, fra vores vinkel, tilpasset produkt.</p>
+        <p>Vi researchede deres målgruppe og lavede konkurrentanalyse, hvorefter vi gik i gang med små idéer i form af udkast. Gennem dette kom vi frem til det design og layout der bedst passede til det som Outdoor Games ønskede.</p>
         <p>Outdoor Games' ejer, Henrik Kornum, var meget tilfreds med vores arbejde og har siden fortalt at et voksende antal kunder har fundet dem gennem deres nye hjemmeside!</p>
       </section>
     </div>
