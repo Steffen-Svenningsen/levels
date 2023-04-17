@@ -98,7 +98,7 @@ export default function Values() {
         <h1>Vil du gøre en forskel?</h1>
         <div className='gradient-line'></div>
         <p>
-          Hvis du ønsker at gøre en positiv forskel for miljøet samtidig med, at du bygger en stærk online tilstedeværelse for dig eller din virksomhed
+          Hvis du ønsker at gøre en positiv forskel for miljøet samtidig med, at du bygger en stærk online tilstedeværelse for dig eller din virksomhed,
           så er det på tide at investere i en miljøvenlig og energieffektiv hjemmeside.
         </p>
         <p>

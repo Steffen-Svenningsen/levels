@@ -995,6 +995,9 @@ footer .footer-bottom {
 
   header .hamburger {
     display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40px;
   }
 
   .price-flavor {
