@@ -12,11 +12,11 @@ export default function MemphisMansion() {
       <p className='tools-used'>Figma, HTML, CSS, Photoshop</p>
       <section className='about-image-section'>
         <div className='case-images'>
-          <img src={Events} width={715} height={304} alt='Kunderelation'/>
-          <img src={Competition} width={715} height={304} alt='Samarbejde'/>
+          <img src={Events} width={715} height={304} alt='Memphis Mansion events for studerende' />
+          <img src={Competition} width={715} height={304} alt='Memphis Mansion events og konkurrencer' />
         </div>
         <div>
-          <img src={Music} width={1500} height={500} alt='Kontor arbejde'/>
+          <img src={Music} width={1500} height={500} alt='Memphis Mansion musik' />
         </div>
       </section>
       <section className='case-info-section'>
