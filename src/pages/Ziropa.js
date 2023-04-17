@@ -1,29 +1,32 @@
 import React from 'react'
-import Zproducts from '..images/ziropa-products.webp'
+import ZProducts from '../images/ziropa-products.webp'
+import ZAdvice from '../images/ziropa-advice.webp'
+import ZGallery from '../images/ziropa-gallery.webp'
+
 
 export default function Ziropa() {
   return (
     <div className='case-page page'>
       <h1>Ziropa</h1>
-      <p className='expertise'>Visuel Identitet, Webdesign, Re-branding, Webudvikling, Webdokumentar</p>
+      <p className='expertise'>Webdesign, Webudvikling, Webdokumentar, Content creation</p>
       <div className='gradient-line no-margin'></div>
-      <p className='tools-used'>Figma, HTML, CSS, Photoshop</p>
+      <p className='tools-used'>Figma, JavaScript, HTML, CSS, Photoshop</p>
       <section className='about-image-section'>
         <div className='case-images'>
-          <img src={Zproducts} width={715} height={304} alt='Ziropas produkter' />
-          <img src={''} width={715} height={304} alt='Samarbejde' />
+          <img src={ZProducts} width={715} height={304} alt='Ziropa produkter' />
+          <img src={ZAdvice} width={715} height={304} alt='Ziropa 3 gode råd' />
         </div>
         <div>
-          <img src={''} width={1500} height={500} alt='Kontor arbejde' />
+          <img className='large-case-image' src={ZGallery} width={1500} height={500} alt='Ziropa galleri' />
         </div>
       </section>
       <section className='case-info-section'>
         <h1>Et samarbejde med mening.</h1>
         <div className='gradient-line'></div>
-        <p>Vi blev kontaktet af Memphis Mansion der gerne ville prøve sig af hos en ny målgruppe, nemlig unge studerende. På den måde håbede de på at kunne tale til den nye generation og sikre sin fremtid den vej. Til det ønskede de Levels hjælp!</p>
-        <p>Memphis Mansion havde allerede nogle tanker om hvad der skulle ske, men det var i samarbejde med vores konsulenter, at alt faldt i hak.</p>
-        <p>Levels lavede research på målgruppen og hele idéen. Herefter blev der lavet et design til den nye digitale løsning Memphis Mansion ønskede sig, samt idégenerering omkring events og tiltag der kunne tiltrække folk fra målgruppen. Har tænkte man bl.a. på at henvende sig til bylivet i Aarhus og i sin helhed det at henvende sig til Aarhus, hvor vi kunne se en stor mængde af potentielle nye besøgende.</p>
-        <p>Memphis Mansion var meget tilfredse med samarbejdet og fortæller at de siden da har set en forøgelse på omkring 225% af besøgende fra målgruppen.</p>
+        <p>Ziropa kom til os med en opgave vi ikke havde prøvet før; de ville have lavet en webdokumentar om dem. Da vi ikke før havde kastet os ud i den form for medie var det spændende og der kom ekstra research på arbejdslisten.</p>
+        <p>De var åbne for idéer og lod Levels vælge den retning Webdokumentaren skulle tage, dog med det krav at vi fik fortalt deres historie. Selvfølgelig begyndte vi med det samme at sætte os ind i hvem Ziropa er, og hvor de kom fra.</p>
+        <p>Efter betydelig research valgte vi at målrette Webdokumentaren til nye iværksættere. Vi så dette som en mulighed for at gøre Ziropa til en slags "storebror" for nye iværksættere.</p>
+        <p>På den måde fik vi sået et frø hos unge mennesker, der når de endelig kommer i gang med deres virksomheder, vil kunne tænke tilbage til Ziropa som dem der hjalp med at kickstarte deres drøm!</p>
       </section>
     </div>
   )

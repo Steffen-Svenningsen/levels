@@ -16,7 +16,7 @@ export default function MemphisMansion() {
           <img src={Competition} width={715} height={304} alt='Memphis Mansion events og konkurrencer' />
         </div>
         <div>
-          <img src={Music} width={1500} height={500} alt='Memphis Mansion musik' />
+          <img className='large-case-image' src={Music} width={1500} height={500} alt='Memphis Mansion musik' />
         </div>
       </section>
       <section className='case-info-section'>

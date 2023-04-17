@@ -602,6 +602,20 @@ section {
   max-width: 70ch;
 }
 
+/* case ziropa */
+.case-images img:nth-child(1) {
+  border-radius: 0 50px 50px 0;
+}
+
+.case-images img:nth-child(2) {
+  border-radius: 50px;
+}
+
+.about-image-section .large-case-image {
+  border-radius: 100px 100px 0 100px;
+}
+
+
 /* Prices */
 .price-intro {
   max-width: 800px;
