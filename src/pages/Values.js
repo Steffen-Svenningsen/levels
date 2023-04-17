@@ -16,7 +16,7 @@ export default function Values() {
       <section className='sustainability'>
         <div className='values-content'>
           <div className='values-content-text'>
-            <h1>Bæredygtighed.</h1>
+            <h1>Med tanke på miljøet.</h1>
             <div className='gradient-line'></div>
             <p>
               Hos Levels er vi forpligtede til at reducere vores indvirkning på miljøet og fremme samfundsansvarlige
@@ -26,6 +26,7 @@ export default function Values() {
               Grunden til, at vi brænder for at reducere vores miljømæssige indvirkning, er at beskytte den naturlige verden.
               Vi forstår godt, at vores handlinger har konsekvenser, og vi vil gøre vores del for at mindske den skade, vores industri kan forårsage.
             </p>
+            <p>Med det bæredygtige perspektiv til webdesign og webudvikling vi har her hos Levels, medfølger der også en række fordele for dig som kunde. Vores tilgang gør at de digitale løsninger vi giver liv bliver mere brugervenlige, samt får du også et hurtigere website.</p>
             <p>
               Ved at omfavne miljøvenlige praksisser kan vi mindske vores CO2-fodaftryk og arbejde mod en mere bæredygtig fremtid.
             </p>
