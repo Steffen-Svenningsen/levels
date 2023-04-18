@@ -8,7 +8,8 @@ export default function ContactForm() {
         <p>
           Vi vil elske at høre om din idé!<br /> <br />
           Om det er hjælp til en ny hjemmeside eller noget helt andet, så er vi klar til at give vores besyv med.<br /> <br />
-          Brug kontaktformularen her til at kontakte os, og så vil vi vende tilbage hurtigst muligt.
+          Brug kontaktformularen her til at kontakte os, og så vil vi vende tilbage hurtigst muligt.<br /> <br />
+          Ellers sidder vi også klar ved telefonen på: <br className='phone-break-line' /> <b>+45 12 34 56 78</b>
         </p>
       </div>
       <form action='https://getform.io/f/853d289e-6fdb-4753-85b3-b792b793fad0' method='POST'>
