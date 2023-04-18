@@ -940,6 +940,7 @@ footer .footer-bottom {
   height: 120px;
   border-radius: 10px;
   outline: none;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .contact-form form button {
