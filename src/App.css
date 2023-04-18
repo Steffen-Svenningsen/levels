@@ -37,6 +37,10 @@ h1 {
   margin-top: 0;
 }
 
+p {
+  line-height: 1.4;
+}
+
 div img {
   max-width: 100%;
   height: auto;
