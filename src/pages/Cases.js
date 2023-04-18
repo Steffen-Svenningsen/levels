@@ -28,7 +28,7 @@ export default function Cases() {
         </div>
       </section>
       <section className='quote-section'>
-        <h1 className='shade-center'>Vi har gennem mere end 10 år tilfredstillet et hav af kunder indenfor webdesign og webudvikling. <span className='span-white'>Er du den næste i rækken?</span></h1>
+        <h1 className='shade-center'>Vi har allerede haft et hav af kunder igennem indenfor webdesign og webudvikling. <span className='span-white'>Er du den næste i rækken?</span></h1>
       </section>
     </div>
   )
